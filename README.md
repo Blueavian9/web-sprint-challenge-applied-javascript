@@ -60,7 +60,17 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
+DOM stands for Document Object Model and is a programming interface that allows us to create, change or remove elements from the document. We can also add events to these elements to make our page more dynamic. You can select elements in JavaScript using methods like getElementById (), querySelector (), and querySelectorAll ().
+
 2. What is an event?
+DOM ( Document Object Model ) Events are a signal that something has occurred, or is occurring, and can be triggered by user interactions or by the browser.
+
 3. What is an event listener?
+The EventListener interface represents an object that can handle an event dispatched by an EventTarget object. Note: Due to the need for compatibility with legacy content, EventListener accepts both a function and an object with a handleEvent () property function.
+
 4. Why would we convert a NodeList into an Array?
+
+In order to work with a NodeList, we may convert it to a regular JavaScript array so that the features and flexibility of an array could be used. A NodeList is a host object and is not subject to the usual rules that apply to native JavaScript objects.
+
 5. What is a component?
+So DOM component is really a plain div or a span. Unlike a CompositeComponent that can be a div, but created but by the React.createClass().
